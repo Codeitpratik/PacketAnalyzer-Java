@@ -1,0 +1,60 @@
+
+=== DPI REPORT ===
+Total packets: 77
+Total bytes: 5738
+Forwarded: 77
+Dropped: 0
+TCP: 73
+UDP: 4
+Other: 0
+Connections tracked: 43
+
+=== THREAD STATISTICS ===
+LB0 dispatched=47
+LB1 dispatched=30
+FP26 processed=47 forwarded=47 dropped=0
+FP0 processed=0 forwarded=0 dropped=0
+FP0 processed=0 forwarded=0 dropped=0
+FP17 processed=30 forwarded=30 dropped=0
+
+=== APPLICATION BREAKDOWN ===
+Unknown               55  71.4% ##############
+DNS                    4   5.2% #
+Twitter/X              3   3.9% 
+HTTP                   2   2.6% 
+Instagram              1   1.3% 
+Apple                  1   1.3% 
+GitHub                 1   1.3% 
+Amazon                 1   1.3% 
+YouTube                1   1.3% 
+TikTok                 1   1.3% 
+Cloudflare             1   1.3% 
+Google                 1   1.3% 
+Spotify                1   1.3% 
+Facebook               1   1.3% 
+Discord                1   1.3% 
+Zoom                   1   1.3% 
+Telegram               1   1.3% 
+
+[Detected Domains/SNIs]
+  - www.facebook.com
+  - twitter.com
+  - discord.com
+  - github.com
+  - zoom.us
+  - www.netflix.com
+  - open.spotify.com
+  - www.apple.com
+  - api.twitter.com
+  - www.amazon.com
+  - www.instagram.com
+  - web.telegram.org
+  - www.cloudflare.com
+  - www.google.com
+  - www.youtube.com
+  - www.microsoft.com
+  - example.com
+  - www.tiktok.com
+  - httpbin.org
+
+Output written to: output-java-test.pcap
